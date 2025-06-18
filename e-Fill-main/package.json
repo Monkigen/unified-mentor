@@ -1,0 +1,41 @@
+{
+  "name": "e-fill",
+  "version": "1.0.0",
+  "description": "Electric Vehicle Charging Station Booking System",
+  "type": "module",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "firebase serve",
+    "deploy": "firebase deploy",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test:watch": "jest --watch"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "testEnvironment": "jsdom",
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
+    },
+    "setupFilesAfterEnv": [
+      "<rootDir>/Assets/JavaScript/tests/setup.js"
+    ]
+  },
+  "dependencies": {
+    "firebase": "^9.15.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "@jest/globals": "^29.5.0",
+    "babel-jest": "^29.5.0",
+    "eslint": "^8.42.0",
+    "firebase-tools": "^12.3.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^29.5.0",
+    "jest-environment-jsdom": "^29.5.0",
+    "prettier": "^2.8.8"
+  }
+}

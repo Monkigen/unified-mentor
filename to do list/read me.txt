@@ -1,0 +1,25 @@
+# To-Do List Web App
+
+## Description
+A simple, responsive to-do list application built with HTML, CSS, and JavaScript. It allows users to add, edit, delete, and mark tasks as complete. All tasks are saved in local storage.
+
+## How to Run
+1. Download or clone this repo.
+2. Open `index.html` in your browser.
+3. Start adding tasks!
+
+## Features
+- Add tasks
+- Mark tasks complete/incomplete
+- Edit task text
+- Delete tasks
+- Data persistence with LocalStorage
+- Responsive design
+
+## Optional Enhancements
+- Task prioritization
+- Due dates
+- Task categories
+
+## Author
+Developed as part of the Unified Mentor Front-End Practice Project.
