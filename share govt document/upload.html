@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upload Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Upload Document</h1>
+    <form id="upload-form">
+      <input type="text" id="doc-name" placeholder="Document Name" required />
+      <input type="file" id="file-upload" required />
+      <button type="submit">Upload</button>
+    </form>
+  </div>
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module" src="upload.js"></script>
+</body>
+</html>
